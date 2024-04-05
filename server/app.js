@@ -138,14 +138,14 @@ import passport from "passport";
 // import { OAuth2Strategy } from "passport-google-oauth20";
 // import OAuth2Strategy from "passport-google-oauth20";
 
+const app = express()
+const PORT = 4000;
 
 
 
 
 const clientid = "13877075335-4cobv9unb1j09184u1r05mqhgn303o6i.apps.googleusercontent.com"
 const clientsecret = "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"
-const app = express()
-const PORT = 4000;
 
 
 

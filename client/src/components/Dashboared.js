@@ -7,7 +7,7 @@ const Dashboared = () => {
 const  navigate = useNavigate()
   const getUser = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/login/sucess", { withCredentials: true })
+      const response = await axios.get("http://localhost:4000/login/sucess", { withCredentials: true })
       // setUserdata(response.data.user)
       console.log("response" , response)
     }
